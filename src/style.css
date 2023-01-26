@@ -315,4 +315,14 @@ form div {
   position: absolute;
   content: url("./images/icon-error.svg");
   right: 12.3rem;
-} 
+}
+
+@media screen and (max-width: 74.3125em) {
+  .error:after {
+    right: 4.3rem;
+  }
+
+  .error-text {
+    margin-left: -2rem !important;
+  }
+}

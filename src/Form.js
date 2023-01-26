@@ -55,8 +55,9 @@ export default function Form() {
         </button>
       </div>
       {error && (
-        <p style={{ color: "var(--soft-red)", margin: ".6rem 0 0 2rem" }}>
+        <p style={{ color: "var(--soft-red)", margin: ".6rem 0 0 2rem" }} className="error-text">
           {error}
+        
         </p>
       )}
     </form>
