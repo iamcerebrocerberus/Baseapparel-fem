@@ -295,3 +295,24 @@ form div button:hover {
     width: 5.5rem;
   }
 }
+
+/*exceptions*/
+.error-outline {
+  border: none;
+  outline: 2px solid var(--soft-red);
+}
+
+form div {
+  position: relative;
+}
+
+/* form div:after {
+  position: absolute;
+  content: url("./images/icon-error.svg");
+  right: 12.3rem;
+} */
+.error:after {
+  position: absolute;
+  content: url("./images/icon-error.svg");
+  right: 12.3rem;
+} 
